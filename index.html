@@ -4,30 +4,55 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>我的遊戲工程師作品集</title>
-  <style>
-    body { font-family: sans-serif; margin: 40px; line-height: 1.6; background: #fafafa; color: #333; }
-    h1 { color: #1e90ff; }
-    section { margin-bottom: 2em; }
-    a { color: #0077cc; text-decoration: none; }
-  </style>
+  <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-  <h1>👾 我的遊戲工程師作品集</h1>
-  <section>
+  <header>
+    <h1>🎮 我的遊戲工程師作品集</h1>
+    <p>專精於 Cocos2d-x / Lua 的資深遊戲前端工程師</p>
+  </header>
+
+  <section id="about">
     <h2>關於我</h2>
-    <p>擁有 12 年 Cocos2d-x / Lua 開發經驗，專精於遊戲前端架構與效能優化。</p>
+    <p>擁有 12 年遊戲開發經驗，熟悉 Cocos2d-x、Lua、Python 腳本開發。具備遊戲架構設計、效能優化與團隊協作能力。</p>
   </section>
-  <section>
-    <h2>作品列表</h2>
-    <ul>
-      <li><strong>Slot Game</strong>：使用 Lua + Cocos2d-x 開發的輪帶遊戲。</li>
-      <li><strong>撲克牌遊戲框架</strong>：可擴充的卡牌系統設計。</li>
-      <li><strong>Python 工具腳本</strong>：自動化關卡資料生成工具。</li>
-    </ul>
+
+  <section id="projects">
+    <h2>作品展示</h2>
+
+    <div class="project">
+      <img src="images/slotgame.jpg" alt="Slot Game 圖片示意">
+      <div>
+        <h3>Slot Game 輪帶遊戲</h3>
+        <p>使用 Cocos2d-x + Lua 實作，負責遊戲邏輯、動畫控制與資料驅動系統設計。</p>
+      </div>
+    </div>
+
+    <div class="project">
+      <img src="images/cardgame.jpg" alt="撲克牌遊戲示意圖">
+      <div>
+        <h3>撲克牌遊戲框架</h3>
+        <p>設計可擴充的撲克牌遊戲框架，支援多種玩法與 AI 對戰邏輯。</p>
+      </div>
+    </div>
+
+    <div class="project">
+      <img src="images/tool.jpg" alt="工具開發示意">
+      <div>
+        <h3>Python 自動化工具</h3>
+        <p>開發資源打包與資料轉換腳本，縮短專案整合時間約 30%。</p>
+      </div>
+    </div>
   </section>
-  <section>
+
+  <section id="contact">
     <h2>聯絡方式</h2>
-    <p>Email: <a href="mailto:example@gmail.com">example@gmail.com</a></p>
+    <p>Email：<a href="mailto:example@gmail.com">example@gmail.com</a></p>
+    <p>GitHub：<a href="https://github.com/yourname" target="_blank">yourname</a></p>
   </section>
+
+  <footer>
+    <p>© 2025 by 遊戲前端工程師. All rights reserved.</p>
+  </footer>
 </body>
 </html>
