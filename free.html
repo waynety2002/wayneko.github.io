@@ -13,13 +13,46 @@
       <a href="index.html" style="color:white;text-decoration:none;">首頁</a>
       <a href="slot.html" style="color:white;text-decoration:none;">Slot輪帶</a>
       <a href="free.html" style="color:white;text-decoration:none;">小品遊戲</a>
-      <a href="orther.html" style="color:white;text-decoration:none;">其他遊戲</a>
+      <!-- <a href="orther.html" style="color:white;text-decoration:none;">其他遊戲</a> -->
     </nav>  
   </header>
   <section id="slotpic">
-    <h2>小品</h2>
+    <h2>小品-遊戲彈珠台</h2>
+    <h3>企劃需求概述：</h3>
+    <p>設計一個8～16層的彈珠台，且其終點數量為9 ~ 17個，每個終點需要至少３個路徑</p>
+  </section> 
+
+  <section id="slotpic">
+    <h3>設計流程：</h3>
+    <p>1.box2d的運行會嚴重影響遊戲效能，因此需要生成路徑並且儲存</p>
+    <p>2.儲存路徑的資料數據需要儘量優化，減少資源消耗。</p>
+    <p>3.篩選路徑功能，</p>
   </section>
 
+  <section id="slotpic">
+    <h2>生成路徑</h2>
+    <p>大約可以生成1000多筆可有完整掉落至終點的路徑</p>
+    <video width="640" height="360" controls>
+    <source src="videos/free/addRoute.mp4" type="video/mp4">
+    您的瀏覽器不支援影片播放。
+    </video>
+  </section>
+
+  <section id="slotpic">
+    <h2>路徑資料優化</h2>
+    <p>單筆數據資料大約為20~30KB，透過一些運算將資料進行壓縮，使數據資料壓縮至6~10KB</p>
+    <h2>路徑資料篩選</h2>
+    <p>透過一些規則，篩選掉一些多餘的資料將1000多筆路徑，篩選到500筆左右</p>
+  </section>
+
+  <section id="slotpic">
+    <h2>手動檢視篩選路徑工具</h2>
+    <p>可檢視指定終點的所有路徑，可立即播放，也可以進行篩選刪除</p>
+    <video width="640" height="360" controls>
+    <source src="videos/free/filiter.mp4" type="video/mp4">
+    您的瀏覽器不支援影片播放。
+    </video>
+  </section>
   <footer>
     <p>© 2025 by 遊戲前端工程師. All rights reserved.</p>
   </footer>
