@@ -1,1 +1,1 @@
-# wayneko.github.io
+# waynety2002.github.io
