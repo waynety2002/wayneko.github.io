@@ -36,6 +36,18 @@ section {
 .project div {
   padding: 1em;
 }
+.orther {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1.5em;
+  overflow: hidden;
+  gap: 12px; /* ← 控制圖片之間的距離 */
+}
+.orther img {
+  width: 400px;
+  height: 225px;
+  object-fit: cover;
+}
 .slot {
   display: flex;
   align-items: center;

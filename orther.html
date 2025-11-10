@@ -5,6 +5,19 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>作品集</title>
   <link rel="stylesheet" href="css/style.css">
+  <style>
+    /* 禁止拖曳圖片 */
+    img {
+      -webkit-user-drag: none;
+      user-drag: none;
+      pointer-events: none; /* 可選：也能防止右鍵選取 */
+    }
+  </style>
+
+  <script>
+    // 禁止右鍵功能
+    document.addEventListener('contextmenu', event => event.preventDefault());
+  </script>
 </head>
 <body>
   <header>
@@ -16,9 +29,42 @@
       <a href="orther.html" style="color:white;text-decoration:none;">其他遊戲</a>
     </nav>  
   </header>
-  <section id="slotpic">
+  <section >
     <h2>其他遊戲</h2>
+    <h3>參與開發的遊戲，因爲版權問題，故馬賽克處理。</h3>
   </section>
+  <section >
+    <h2>slot</h2>
+    <div class="orther">
+      <img src="images/orther/slot1.png" alt="Slot Game 圖片示意">
+      <img src="images/orther/slot2.png" alt="Slot Game 圖片示意">
+    </div>
+
+    <h2>bet</h2>
+    <div class="orther">
+      <img src="images/orther/bet1_1.png" alt="Slot Game 圖片示意">
+      <img src="images/orther/bet1_2.png" alt="Slot Game 圖片示意">
+    </div>
+    <div class="orther">
+      <img src="images/orther/bet3_1.png" alt="Slot Game 圖片示意">
+      <img src="images/orther/bet3_2.png" alt="Slot Game 圖片示意">
+    </div>
+    <div class="orther">
+      <img src="images/orther/bet2.png" alt="Slot Game 圖片示意">
+    </div>
+
+    <h2>poker</h2>
+    <div class="orther">
+      <img src="images/orther/poker1_1.png" alt="Slot Game 圖片示意">
+      <img src="images/orther/poker1_2.png" alt="Slot Game 圖片示意">
+    </div>
+
+    <h2>free</h2>
+    <div class="orther">
+      <img src="images/orther/free1.png" alt="Slot Game 圖片示意">
+    </div>
+  </section>
+
 
   <footer>
     <p>© 2025 by 遊戲前端工程師. All rights reserved.</p>
